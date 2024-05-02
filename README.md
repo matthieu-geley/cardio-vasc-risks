@@ -2,6 +2,10 @@
 
 ## Présentation du projet
 
+Le but de ce projet est d'apprendre à utiliser la régression logistique dans le cadre de l'apprentissage supervisé.   
+Pour celà nous allons utiliser un dataset contenant des informations médicales sur des patients anonymisés et nous allons essayer de prédire si ces patients sont à risque de maladies cardiovasculaires ou non.   
+
+
 ## Veille informatique sur la régression logistique
 
 ### Définition:
