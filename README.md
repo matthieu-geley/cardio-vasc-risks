@@ -20,8 +20,8 @@ Ce résultat varie toujours entre 0 et 1. Lorsque la valeur prédite est supéri
 
 1) La variable dépendante est binaire:   
 La variable dépendante doit être classée en deux catégories distinctes. Cela signifie que la régression logistique prédit la probabilité d'un événement en deux scénarios possibles:   
-- 1 si l'événement se produit
 - 0 si l'événement ne se produit pas.
+- 1 si l'événement se produit.
 
 2) La distribution gaussienne:   
 La régression logistique suppose que la relation entre les variables (entrée et sortie) est linéaire
@@ -50,7 +50,7 @@ $$
 σ(x) = \frac{1}{1 + e^{-x}}
 $$
 
-Graphiquement, celle-ci correspond à une courbe en forme de S qui a pour limites 0 et 1 lorsque x tend vers -∞ et +∞ passant par y=0.5 lorsque x=0 .
+Graphiquement, celle-ci correspond à une courbe en forme de S qui a pour limites 0 et 1 lorsque x tend  vers -∞ et +∞ passant par y=0.5 lorsque x=0.
 
 ![sigmoid function](images/sigmoidFunct.png)
 
