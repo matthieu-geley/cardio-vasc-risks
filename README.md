@@ -236,3 +236,11 @@ Où:
 - Q1 est le premier quartile (25 % des valeurs sont inférieures à Q1)
 
 Source: [Alliage-ad.com: Les méthodes de normalisation avec Scikit-Learn](https://www.alliage-ad.com/tutoriels-python/les-methodes-de-normalisation/)
+
+### Comment choisir entre la standardisation et la normalisation ?
+
+Le choix entre la standardisation et la normalisation dépend de la distribution des données et de l'algorithme d'apprentissage automatique que vous utilisez. Voici quelques conseils pour vous aider à choisir entre la standardisation et la normalisation :
+
+- **Standardisation** : utilisez la standardisation lorsque les données suivent une distribution normale ou gaussienne ou lorsqu'il y a des données abérrantes.
+
+- **Normalisation** : Pour les réseaux de neurones, on préfèra la normalisation car elle permet de réduire le temps de convergence. Pour les algorithmes qui ne sont pas sensibles à l'échelle des variables, la normalisation peut être une bonne option.
