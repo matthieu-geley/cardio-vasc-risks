@@ -240,3 +240,4 @@ supérieur à 5: Sévère, Coefficient et p-value non fiables, correction néces
 - multicolinéarité de données: supprimer certaines variables hautement corrélés, combiner linéairement les variables indépendantes corrélées, utiliser LASSO([Least Absolute Shrinkage and Selection Operator par Robert Tibshirani en 1996](https://www.xlstat.com/fr/solutions/fonctionnalites/regression-lasso)) ou [Ridge regression](https://www.ibm.com/topics/ridge-regression)
 
 Dans notre cas, nous choisissons de ne pas utiliser le poids au profit de l'IMC pour éviter la multicolinéarité.
+
