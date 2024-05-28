@@ -35,9 +35,11 @@ La régression logistique nécessite un échantillon de grande taille pour obten
 ### Mathématiquement:
 
 Considérons un ensemble de données d'entrée X  definit comme suit:   
+
 $$
 X = {x_1, x_2, ..., x_n}
 $$
+
 La régression logistique a pour objectif de trouver une fonction h telle que nous puissions calculer:   
 
 y = {1 si h(x) >= [seuil], 0 si h(x) < [seuil]}   
@@ -129,7 +131,11 @@ La normalisation permet de résoudre les problèmes de dimensions en ajustant le
 Pour cela il faut soustraire les valeurs par le minimum puis diviser par le maximum de toutes les observations.
 
 Formule:   
-$$ X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}} $$
+
+$$ 
+X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}}
+$$
+
   Où:
   - X est la valeur d'origine
   - X_min est la valeur minimale de la variable
@@ -140,7 +146,11 @@ $$ X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}} $$
 **La standardisation des données**, fait référence au processus de transformation des données brutes en une forme standardisée. La plupart du temps, cela implique de procéder à la modification des données afin que ces dernières obtiennent une **moyenne de zéro** et un **écart-type de 1**. En d'autres termes, la standardisation consiste à trier, organiser et homogénéiser des données suivant certains standards préalablement définis.
 
 Formule:   
-$$ X_{norm} = \frac{X - \mu}{\sigma} $$
+
+$$
+X_{norm} = \frac{X - \mu}{\sigma}
+$$
+
   Où:
   - X est la valeur d'origine
   - μ (mu) est la moyenne des valeurs de la variable
@@ -154,12 +164,20 @@ La méthode Robuste est une technique de normalisation des données qui est **mo
 Le procédé est le suivant: on soustrait aux valeurs de la variable la médiane et on divise par l'écart interquartile (IQR). L'écart interquartile est la différence entre le troisième quartile (Q3) et le premier quartile (Q1) de la distribution des valeurs de la variable.
 
 Formule:   
-$$ X_{rob} = \frac{X - \text{médiane}}{\text{IQR}} $$
+
+$$
+X_{rob} = \frac{X - \text{médiane}}{\text{IQR}}
+$$
+
 Où:
 - X est la valeur d'origine
 - médiane est la médiane des valeurs de la variable
 - IQR est l'écart interquartile des valeurs de la variable:
-$$ IQR = Q3 - Q1 $$
+- 
+$$
+IQR = Q3 - Q1
+$$
+
 Où:
 - Q3 est le troisième quartile (75 % des valeurs sont inférieures à Q3)
 - Q1 est le premier quartile (25 % des valeurs sont inférieures à Q1)
